@@ -40,7 +40,3 @@ body {
   background-color: var(--light);
   color: var(--dark);
 }
-
-.section {
-  margin-top: 50rem;
-}

@@ -4,17 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/styles/burger.css">
-  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <!-- <link rel="stylesheet" href="./assets/styles/styles.css"> -->
   <title>Document</title>
 </head>
 <body>
   <div class="main">
     <header class="header">
-      <div class="container">
+      <div class="header__container">
         <nav class="navbar">
-          <h1 class="title">
-            Guido Podesta - Frontend Developer
+          <h1 class="narvar__title">
+            ABOUT ME<span>/HOME</span>
           </h1>
           <!-- icons -->
           <input type="checkbox" class="check" id="toggle">
@@ -23,16 +22,40 @@
           </label>
           <ul class="nav-ul" id="nav-ul">
             <li class="nav-link"><a href="#">About Me</a></li>
-            <li class="nav-link"><a href="#">Projects</a></li>
             <li class="nav-link"><a href="#">Skills</a></li>
-            <li class="nav-link"><a href="#">Contact</a></li>
+            <li class="nav-link"><a href="#">Projects</a></li>
+            <li class="nav-link"><a href="#">Contact Me</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <section class="section">
+      <div class="aboutMe">
+        <div class="aboutMe__profile">
+          <div class="about__profile-img">
+            <img src="" alt="photo-profile">
+          </div>
+          <div class="about__profile-card"></div>
+        </div>
+        <div class="aboutMe__description">
+          <div class="aboutMe__description-title"></div>
+          <div class="aboutMe__description-paragraph"></div>
+          <div class="aboutMe__description-btn">
+            <button class="btn__download">Download CV</button>
+          </div>
+          <div class="aboutMe__description-icons">
+            <!-- Linkedin -->
+            <!-- GitHub -->
+            <!-- Facebook -->
+          </div>
+        </div>
+      </div>
+      <div class="skills"></div>
+      <div class="projects"></div>
+      <div class="contactMe"></div>
     </section>
+    <footer class="footer"></footer>
   </div>
-  <script src="./assets/js/iindex.js"></script>
+  <script src="./assets/js/index.js"></script>
 </body>
 </html>
