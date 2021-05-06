@@ -26,9 +26,9 @@
     margin-top: 25rem;
     background-color: var(--very-light);
     border: 1px solid skyblue;
-    border-radius: .3rem;
+    border-radius: 0.3rem;
     transform: translateY(-200%);
-    transition: all .5s;
+    transition: all 0.5s;
     z-index: 999;
   }
 
@@ -59,7 +59,7 @@
 
   #toggle:checked ~ .hamburger {
     border: 1px solid gray;
-    border-radius: .3rem;
-    padding: .4rem;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
   }
 }

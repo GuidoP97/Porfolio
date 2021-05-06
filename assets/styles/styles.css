@@ -1,5 +1,5 @@
-@import url('./header.css');
-@import url('./mobile.css');
+@import url("./header.css");
+/* @import url("./mobile.css"); */
 
 *,
 *::before,
@@ -11,20 +11,24 @@
 
 html {
   font-size: 10px;
-  font-family: sans-serif;
-  overflow-x: hidden;
+  font-family: Tahoma, sans-serif;
 }
 
 :root {
-  /* COLORS */
-  --very-light: #fdfcfb;
-  --light: #f5f7fa;
-  --light-gray: #c3cfe2;
-  --very-light-brown: #e2d1c3;
-  --dark: #434343;
-  --very-dark: #000;
-  --lime-green:#5ee24c;
-  --bright-cyan:#61c254;
+  /* BACKGROUND */
+  --yellow: #d8bf25;
+  --dark-yellow: #6c6014;
+  --dark: #111;
+  --quite-dark: #0e0c0f;
+  --very-dark: #08080a;
+  /* TEXT */
+  --light-yellow: #e7c525;
+  --black: #151016;
+  --quite-gray: #b8b8ba;
+  --gray: #b7b7b7;
+  --light-gray: #eeeeee;
+  --white-no: #e9eae2;
+  --white: #fffdf1;
   /* MARGIN */
   --m-small: 1rem;
   --m-medium: 3rem;
@@ -33,10 +37,4 @@ html {
 
 body {
   width: 100%;
-}
-
-.main {
-  width: 100vw;
-  background-color: var(--light);
-  color: var(--dark);
 }
