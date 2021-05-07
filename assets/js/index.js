@@ -1,10 +1,13 @@
 const hamburger = document.getElementById("hamburger");
-const navUl = document.getElementById("nav-ul");
+const checkbox = document.getElementById("check");
+const menu = document.getElementById("navbar__menu");
 
 hamburger.addEventListener("click", () => {
-  if (navUl.hasAttribute("name")) {
-    navUl.removeAttribute("name");
+  if (menu.hasAttribute("name")) {
+    menu.removeAttribute("name");
+    checkbox.removeAttribute("checked");
   } else {
-    navUl.setAttribute("name", "hamburger");
+    menu.setAttribute("name", "hamburger");
+    checkbox.setAttribute("checked", "");
   }
 });
