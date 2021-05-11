@@ -25,22 +25,23 @@
   color: #e7ecef;
 }
 
-.check,
-.navbar__menu {
+.check {
   display: none;
 }
 
-ul[name*="hamburger"] {
+.navbar__menu {
   display: flex;
+  width: 100%;
+  height: 85vh;
+  list-style: none;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  list-style: none;
-  width: 100%;
-  height: 85vh;
-  background-color: #00000044;
   top: 15vh;
+  z-index: -1;
+  transform: translateY(-200px);
+  transition: all linear 0.3s;
 }
 
 .navbar__menu li a {
@@ -55,14 +56,19 @@ ul[name*="hamburger"] {
 
 .hamburger img {
   transform: scale(1);
-  transition: linear 0.3s;
+  transition: all linear 0.3s;
 }
 
 .check:checked + .hamburger img {
   transform: scale(1.3);
-  transition: linear 0.3s;
 }
 
-ul[name*="hamburger"] li a:hover {
+.open {
+  z-index: 1;
+  background-color: #00000044;
+  transform: translateY(0px);
+}
+
+.open li a:hover {
   color: var(--light-yellow);
 }

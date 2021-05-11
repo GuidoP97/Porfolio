@@ -3,11 +3,11 @@ const checkbox = document.getElementById("check");
 const menu = document.getElementById("navbar__menu");
 
 hamburger.addEventListener("click", () => {
-  if (menu.hasAttribute("name")) {
-    menu.removeAttribute("name");
+  if (checkbox.hasAttribute("checked")) {
     checkbox.removeAttribute("checked");
+    menu.classList.remove("open");
   } else {
-    menu.setAttribute("name", "hamburger");
     checkbox.setAttribute("checked", "");
+    menu.classList.add("open");
   }
 });
