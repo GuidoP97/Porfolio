@@ -40,8 +40,8 @@
   position: absolute;
   top: 15vh;
   z-index: -1;
-  transform: translateY(-200px);
-  transition: all linear 0.3s;
+  transform: translateY(-1000px);
+  transition: all linear 0.5s;
 }
 
 .navbar__menu li a {
