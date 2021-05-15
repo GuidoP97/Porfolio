@@ -29,10 +29,6 @@ html {
   --gray: #b7b7b7;
   --light-gray: #eeeeee;
   --white: #fffdf1;
-  /* MARGIN */
-  --m-small: 1rem;
-  --m-medium: 3rem;
-  --m-large: 5rem;
 }
 
 body {
