@@ -12,7 +12,7 @@
 
 html {
   font-size: 10px;
-  font-family: Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -29,6 +29,12 @@ html {
   --gray: #b7b7b7;
   --light-gray: #eeeeee;
   --white: #fffdf1;
+  /* TEXT WEIGHT */
+  --lightest-text: 300;
+  --light-text: 400;
+  --medium-text: 500;
+  --bold-text: 700;
+  --boldest-text: 900;
 }
 
 body {

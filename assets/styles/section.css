@@ -47,12 +47,29 @@
 }
 
 .aboutMe__description-title {
-  margin-left: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.aboutMe__description-title::after {
+  content: "";
+  width: 30%;
+  min-width: 13rem;
+  max-width: 16rem;
+  height: 2px;
+  background-color: var(--light-gray);
+  position: absolute;
+  bottom: 0;
+  left: 19rem;
 }
 
 .aboutMe__description-title h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--light-gray);
+  font-weight: bolder;
+  letter-spacing: 3px;
 }
 
 .aboutMe__description-paragraph {

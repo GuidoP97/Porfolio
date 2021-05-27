@@ -19,8 +19,9 @@
 }
 
 .navbar__title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #13160d;
+  font-weight: var(--boldest-text);
 }
 
 .navbar__title span {
@@ -49,8 +50,8 @@
 .navbar__menu li a {
   text-decoration: none;
   color: var(--light-gray);
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.7rem;
+  font-weight: var(--medium-text);
   padding: 1rem;
   border: 1px solid transparent;
   border-radius: 10px;
