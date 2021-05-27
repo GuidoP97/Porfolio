@@ -43,11 +43,25 @@
 }
 
 .aboutMe__description {
-  margin-top: 2rem;
+  margin-top: 5rem;
+}
+
+.aboutMe__description-title {
+  margin-left: 1rem;
 }
 
 .aboutMe__description-title h2 {
+  font-size: 3rem;
+  color: var(--light-gray);
+}
+
+.aboutMe__description-paragraph {
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+  text-align: justify;
 }
 
 .aboutMe__description-paragraph .paragraph {
+  font-size: 1.5rem;
+  color: var(--gray);
 }
