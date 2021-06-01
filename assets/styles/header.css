@@ -8,6 +8,7 @@
   background-color: var(--yellow);
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .navbar {
@@ -25,7 +26,7 @@
 }
 
 .navbar__title span {
-  color: #e7ecef;
+  color: var(--light-gray);
 }
 
 .check {
@@ -49,7 +50,7 @@
 
 .navbar__menu li a {
   text-decoration: none;
-  color: var(--light-gray);
+  color: var(--white);
   font-size: 1.7rem;
   font-weight: var(--medium-text);
   padding: 1rem;
@@ -69,8 +70,7 @@
 }
 
 .open {
-  z-index: 1;
-  background-color: #00000057;
+  background-color: #0000008a;
   transform: translateY(0px);
 }
 

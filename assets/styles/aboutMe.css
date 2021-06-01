@@ -1,12 +1,7 @@
-.section,
 .aboutMe,
 .aboutMe__profile,
 .aboutMe__profile-img {
   width: 100%;
-}
-
-.section {
-  background-color: var(--quite-dark);
 }
 
 .aboutMe__profile-img {
@@ -34,11 +29,12 @@
 .aboutMe__profile-card .paragraph {
   font-size: 2rem;
   text-align: center;
-  font-weight: 700;
+  font-style: oblique;
+  font-weight: var(--bold-text);
 }
 
 .aboutMe__profile-card .paragraph span {
-  font-weight: 400;
+  font-weight: var(--medium-text);
   font-style: italic;
 }
 
@@ -46,29 +42,11 @@
   margin-top: 5rem;
 }
 
-.aboutMe__description-title {
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  position: relative;
-  margin-bottom: 5rem;
-}
-
-.aboutMe__description-title::after {
-  content: "";
-  width: 30%;
-  min-width: 13rem;
-  max-width: 16rem;
-  height: 2px;
-  background-color: var(--light-gray);
-  position: absolute;
-  bottom: 0;
-  left: 19rem;
-}
-
-.aboutMe__description-title h2 {
+.title-container .title-h2 {
+  z-index: 1;
   font-size: 4rem;
-  color: var(--light-gray);
-  font-weight: bolder;
+  color: var(--gray);
+  font-weight: var(--boldest-text);
   letter-spacing: 3px;
 }
 
@@ -81,4 +59,24 @@
 .aboutMe__description-paragraph .paragraph {
   font-size: 1.5rem;
   color: var(--gray);
+  font-weight: var(--light-text);
+}
+
+.aboutMe__description-btn {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn__download {
+  width: 50%;
+  height: 4rem;
+  font-weight: var(--boldest-text);
+  background-color: var(--yellow);
+  color: var(--light-gray);
+  outline: none;
+  border: 1px solid var(--gray);
+  border-radius: 1rem;
 }

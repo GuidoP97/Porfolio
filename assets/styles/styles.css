@@ -1,5 +1,6 @@
 @import url("./header.css");
-@import url("./section.css");
+@import url("./aboutMe.css");
+@import url("./projects.css");
 
 *,
 *::before,
@@ -30,13 +31,38 @@ html {
   --light-gray: #eeeeee;
   --white: #fffdf1;
   /* TEXT WEIGHT */
-  --lightest-text: 300;
-  --light-text: 400;
+  --light-text: 300;
   --medium-text: 500;
   --bold-text: 700;
   --boldest-text: 900;
 }
 
-body {
+body,
+.section {
   width: 100%;
+}
+
+.section {
+  background-color: var(--quite-dark);
+  z-index: 10;
+}
+
+.title-container {
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  margin-bottom: 5rem;
+  z-index: 1;
+}
+
+.title-container::after {
+  content: "";
+  width: 30%;
+  min-width: 13rem;
+  max-width: 16rem;
+  height: 2px;
+  background-color: var(--light-gray);
+  position: absolute;
+  bottom: 0;
+  left: 19rem;
 }
